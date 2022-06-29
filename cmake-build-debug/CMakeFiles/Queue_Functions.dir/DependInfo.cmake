@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/c_lion/Queue Functions/main.cpp" "D:/c_lion/Queue Functions/cmake-build-debug/CMakeFiles/Queue_Functions.dir/main.cpp.obj"
+  "D:/c_lion/Queue Functions/lib/Queue.cpp" "D:/c_lion/Queue Functions/cmake-build-debug/CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj"
+  "D:/c_lion/Queue Functions/test/main.cpp" "D:/c_lion/Queue Functions/cmake-build-debug/CMakeFiles/Queue_Functions.dir/test/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

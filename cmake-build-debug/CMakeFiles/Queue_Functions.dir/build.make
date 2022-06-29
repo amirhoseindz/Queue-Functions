@@ -76,32 +76,47 @@ include CMakeFiles/Queue_Functions.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Queue_Functions.dir/flags.make
 
-CMakeFiles/Queue_Functions.dir/main.cpp.obj: CMakeFiles/Queue_Functions.dir/flags.make
-CMakeFiles/Queue_Functions.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c_lion\Queue Functions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue_Functions.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_Functions.dir\main.cpp.obj -c "D:\c_lion\Queue Functions\main.cpp"
+CMakeFiles/Queue_Functions.dir/test/main.cpp.obj: CMakeFiles/Queue_Functions.dir/flags.make
+CMakeFiles/Queue_Functions.dir/test/main.cpp.obj: ../test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c_lion\Queue Functions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue_Functions.dir/test/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_Functions.dir\test\main.cpp.obj -c "D:\c_lion\Queue Functions\test\main.cpp"
 
-CMakeFiles/Queue_Functions.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_Functions.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c_lion\Queue Functions\main.cpp" > CMakeFiles\Queue_Functions.dir\main.cpp.i
+CMakeFiles/Queue_Functions.dir/test/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_Functions.dir/test/main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c_lion\Queue Functions\test\main.cpp" > CMakeFiles\Queue_Functions.dir\test\main.cpp.i
 
-CMakeFiles/Queue_Functions.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_Functions.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c_lion\Queue Functions\main.cpp" -o CMakeFiles\Queue_Functions.dir\main.cpp.s
+CMakeFiles/Queue_Functions.dir/test/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_Functions.dir/test/main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c_lion\Queue Functions\test\main.cpp" -o CMakeFiles\Queue_Functions.dir\test\main.cpp.s
+
+CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj: CMakeFiles/Queue_Functions.dir/flags.make
+CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj: ../lib/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\c_lion\Queue Functions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_Functions.dir\lib\Queue.cpp.obj -c "D:\c_lion\Queue Functions\lib\Queue.cpp"
+
+CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\c_lion\Queue Functions\lib\Queue.cpp" > CMakeFiles\Queue_Functions.dir\lib\Queue.cpp.i
+
+CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\c_lion\Queue Functions\lib\Queue.cpp" -o CMakeFiles\Queue_Functions.dir\lib\Queue.cpp.s
 
 # Object files for target Queue_Functions
 Queue_Functions_OBJECTS = \
-"CMakeFiles/Queue_Functions.dir/main.cpp.obj"
+"CMakeFiles/Queue_Functions.dir/test/main.cpp.obj" \
+"CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj"
 
 # External object files for target Queue_Functions
 Queue_Functions_EXTERNAL_OBJECTS =
 
-Queue_Functions.exe: CMakeFiles/Queue_Functions.dir/main.cpp.obj
+Queue_Functions.exe: CMakeFiles/Queue_Functions.dir/test/main.cpp.obj
+Queue_Functions.exe: CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj
 Queue_Functions.exe: CMakeFiles/Queue_Functions.dir/build.make
 Queue_Functions.exe: CMakeFiles/Queue_Functions.dir/linklibs.rsp
 Queue_Functions.exe: CMakeFiles/Queue_Functions.dir/objects1.rsp
 Queue_Functions.exe: CMakeFiles/Queue_Functions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\c_lion\Queue Functions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Queue_Functions.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\c_lion\Queue Functions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Queue_Functions.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Queue_Functions.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

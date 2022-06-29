@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/c_lion/Queue Functions/main.cpp">
+		<Unit filename="D:/c_lion/Queue Functions/include/Queue.h">
+			<Option target="Queue_Functions"/>
+		</Unit>
+		<Unit filename="D:/c_lion/Queue Functions/lib/Queue.cpp">
+			<Option target="Queue_Functions"/>
+		</Unit>
+		<Unit filename="D:/c_lion/Queue Functions/test/main.cpp">
 			<Option target="Queue_Functions"/>
 		</Unit>
 		<Unit filename="D:/c_lion/Queue Functions/CMakeLists.txt">

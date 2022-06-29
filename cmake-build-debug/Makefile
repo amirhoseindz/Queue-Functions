@@ -142,32 +142,59 @@ Queue_Functions/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/build
 .PHONY : Queue_Functions/fast
 
-main.obj: main.cpp.obj
+lib/Queue.obj: lib/Queue.cpp.obj
 
-.PHONY : main.obj
+.PHONY : lib/Queue.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+lib/Queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj
+.PHONY : lib/Queue.cpp.obj
 
-main.i: main.cpp.i
+lib/Queue.i: lib/Queue.cpp.i
 
-.PHONY : main.i
+.PHONY : lib/Queue.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/main.cpp.i
-.PHONY : main.cpp.i
+lib/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.i
+.PHONY : lib/Queue.cpp.i
 
-main.s: main.cpp.s
+lib/Queue.s: lib/Queue.cpp.s
 
-.PHONY : main.s
+.PHONY : lib/Queue.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/main.cpp.s
-.PHONY : main.cpp.s
+lib/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.s
+.PHONY : lib/Queue.cpp.s
+
+test/main.obj: test/main.cpp.obj
+
+.PHONY : test/main.obj
+
+# target to build an object file
+test/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/test/main.cpp.obj
+.PHONY : test/main.cpp.obj
+
+test/main.i: test/main.cpp.i
+
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/test/main.cpp.i
+.PHONY : test/main.cpp.i
+
+test/main.s: test/main.cpp.s
+
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Functions.dir\build.make CMakeFiles/Queue_Functions.dir/test/main.cpp.s
+.PHONY : test/main.cpp.s
 
 # Help Target
 help:
@@ -178,9 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Queue_Functions
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... lib/Queue.obj
+	@echo ... lib/Queue.i
+	@echo ... lib/Queue.s
+	@echo ... test/main.obj
+	@echo ... test/main.i
+	@echo ... test/main.s
 .PHONY : help
 
 

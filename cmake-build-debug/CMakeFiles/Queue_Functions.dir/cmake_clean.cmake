@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Queue_Functions.dir/main.cpp.obj"
+  "CMakeFiles/Queue_Functions.dir/lib/Queue.cpp.obj"
+  "CMakeFiles/Queue_Functions.dir/test/main.cpp.obj"
   "Queue_Functions.exe"
   "Queue_Functions.exe.manifest"
   "Queue_Functions.pdb"
