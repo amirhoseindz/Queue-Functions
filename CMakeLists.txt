@@ -3,4 +3,4 @@ project(Queue_Functions)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Queue_Functions main.cpp)
+add_executable(Queue_Functions test/main.cpp)
