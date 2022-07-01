@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+D:/c_lion/Queue Functions/include/Queue.h
+iostream
+-
+
+D:/c_lion/Queue Functions/lib/Queue.cpp
+../include/Queue.h
+D:/c_lion/Queue Functions/include/Queue.h
+
 D:/c_lion/Queue Functions/test/main.cpp
 iostream
 -
+../include/Queue.h
+D:/c_lion/Queue Functions/include/Queue.h
 

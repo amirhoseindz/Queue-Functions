@@ -23,11 +23,11 @@ bool Queue :: IsEmpty()
 }
 void Queue :: Enqueue(int Element)
 {
-    _Queue [_Tail] = Element;
     if (_Tail == sizeof(_Queue)/sizeof(_Queue[0]) - 1)
     {
         throw out_of_range (", you cant enqueue any more elements");
     }
+    _Queue [_Tail] = Element;
     _Tail = _Tail + 1;
     if (_Head == -1)
     {
